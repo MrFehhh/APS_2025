@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VisionWay - Análise</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>VisionWay</h1>
+
+  <div id="analysis-area">
+    <div id="image-container">
+      <img id="uploaded-image" src="" alt="Imagem carregada">
+      <canvas id="overlay" style="display:none;"></canvas>
+    </div>
+
+    <div id="action-buttons">
+      <button class="action-btn" id="detect-btn">Detectar Objeto</button>
+      <button class="action-btn" id="segment-btn">Segmentação</button>
+      <button class="action-btn" id="classify-btn">Classificar</button>
+      <button class="action-btn" id="obb-btn">OBB</button>
+    </div>
+  </div>
+
+  <script src="engine.js" defer></script>
+</body>
+</html>
